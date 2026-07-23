@@ -9,6 +9,7 @@ Descrição:
 
 Evidência da execução do Caso de Teste CT-01, demonstrando que o cadastro foi realizado com sucesso e que o sistema exibiu corretamente o número da conta criada.
 
+                                                                   //
 Evidência 2 – Criação de conta com saldo
 
 
@@ -18,11 +19,55 @@ Descrição:
 
 Evidência da criação da conta com a opção "Criar conta com saldo" habilitada, resultando em um saldo inicial de R$ 1.000,00, conforme especificado nos requisitos.
 
+                                                                   //
 
 Evidência 3 – Campo Nome obrigatório
+
+Arquivo: <img width="319" height="230" alt="image" src="https://github.com/user-attachments/assets/47cf68d8-3995-489e-a471-9684ee259918" />
+
+
+Descrição:
+
+Evidência da validação do campo Nome. O requisito espera a mensagem "Nome não pode ser vazio", e o resultado foi conforme especificado nos requisitos.
+
+                                                                  //
+
+Evidência 4 – Campo Email obrigatório
+
+Arquivo: <img width="223" height="335" alt="image" src="https://github.com/user-attachments/assets/c56ace4a-571e-4983-bc0e-311e3194a17d" />
+
+
+Descrição:
+
+Evidência da validação do campo Email. Foi identificado que o sistema exibe a mensagem "É campo obrigatório" em vez da mensagem especificada no requisito.
+
+                                                                   //
+
+Evidência 5 – Campo Senha obrigatório
+
+Arquivo: <img width="225" height="341" alt="image" src="https://github.com/user-attachments/assets/4fed9c97-2023-4666-86c6-60075cd935ed" />
+
+
+Descrição:
+
+Evidência da validação do campo Senha. O comportamento observado diverge do requisito, pois o sistema apresenta apenas a mensagem "É campo obrigatório".
+
+                                                                  //
+Evidência 6 – Campo Confirmar Senha obrigatório
+
+Arquivo: <img width="231" height="356" alt="image" src="https://github.com/user-attachments/assets/613d0e4e-8b36-4368-ad55-d0d6c0be53c3" />
+
+
+Descrição:
+
+Evidência da validação do campo Confirmação de senha. O sistema exibe a mensagem "É campo obrigatório", diferente da mensagem esperada no requisito.
+                                                                  
+                                                                   //
+Evidência 7 – Saldo disponível
 
 Arquivo: 
 
 Descrição:
 
-Evidência da validação do campo Nome. O requisito esperava a mensagem "Nome não pode ser vazio", porém o sistema apresentou apenas "É campo obrigatório", caracterizando divergência em relação ao requisito.
+Evidência da execução do Caso de Teste CT-03, demonstrando que o saldo disponível é exibido corretamente na tela de extrato.
+                                                                   
