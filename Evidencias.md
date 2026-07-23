@@ -65,9 +65,31 @@ Evidência da validação do campo Confirmação de senha. O sistema exibe a men
                                                                    //
 Evidência 7 – Saldo disponível
 
-Arquivo: 
+Arquivo: <img width="273" height="99" alt="image" src="https://github.com/user-attachments/assets/197b6962-ff2b-442e-bbc5-a123f16ea251" />
+
 
 Descrição:
 
 Evidência da execução do Caso de Teste CT-03, demonstrando que o saldo disponível é exibido corretamente na tela de extrato.
-                                                                   
+
+                                                                   //
+Evidência 8 – Histórico de transações
+
+Arquivo: <img width="482" height="167" alt="image" src="https://github.com/user-attachments/assets/83a99f41-a2a6-472d-919f-e0f446dfc1a7" />
+
+
+Descrição:
+
+Evidência da tela de extrato apresentando as transações registradas na conta, incluindo data, tipo da movimentação e valores.   
+
+                                                                   //
+Evidência 9 – Limitação encontrada
+
+Arquivo: <img width="61" height="44" alt="image" src="https://github.com/user-attachments/assets/c5570b7f-aaa8-429e-820c-75bf8e9f3efb" />
+
+
+Descrição:
+
+Durante a execução dos testes foi observado que o botão de alternância da opção "Criar conta com saldo" não responde ao clique no círculo branco. A funcionalidade só é acionada quando o clique é realizado diretamente sobre a barra do componente.
+
+
